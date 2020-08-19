@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>lista personas</h2>
+    <input type="search" placeholder="buscar">
+    <ul>
+        {% for persona in personas %}
+        <li>{{persona}}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
